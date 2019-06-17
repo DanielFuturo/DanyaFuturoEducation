@@ -1,0 +1,27 @@
+$myColor: red;
+
+@mixin box-params($x) {
+    border: 1px solid $myColor;
+    width: $x;
+    height: $x;
+}
+
+.container {
+    @include box-params(500px);
+}
+
+.box1 {
+    @include box-params(20px);
+}
+
+.box2 {
+    @include box-params(50px);
+}
+
+.box3 {
+    @include box-params(60px);
+}
+
+.box4 {
+    @include box-params(80px);
+}

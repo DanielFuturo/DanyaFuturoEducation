@@ -1,0 +1,3 @@
+runProgram = require('./logic');
+
+runProgram();

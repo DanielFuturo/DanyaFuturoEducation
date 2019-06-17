@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-color: lemonchiffon;
+    font-family: Arial;
+}
+
+table {
+    margin: 0px auto;
+    text-align: left;
+    border-style: solid;
+    border-color: indianred;
+    width: 650px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+h2 {
+    color: darksalmon;
+}
+
+thead {
+    text-align: center;
+}
+
+thead tr td {
+    background-color: lightcoral;
+    font-weight: bold;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-top-style: solid;
+    border-top-color: indianred;
+
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    font-size: 14px;
+    background-color: white;
+}
